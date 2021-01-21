@@ -78,7 +78,7 @@ body {
   position: absolute;
   z-index: -1;
   content: "Не болей, Даша!";
-  text-shadow: #000 1px 1px 0, #000 -1px 1px 0, #000 -1px -1px 0, #000 1px -1px 0, white 2px 2px 0, white 3px 3px 0, white 4px 4px 0, white 5px 5px 0, white 6px 6px 0, white 7px 7px 0, white 8px 8px 0, white 9px 9px 0, white 10px 10px 0, white 11px 11px 0, white 12px 12px 0;
+  text-shadow: #000 1px 1px 0, #000 -1px 1px 0, #000 -1px -1px 0, #000 1px -1px 0, white 2px 2px 0, white 3px 3px 0, white 4px 4px 0, white 5px 5px 0, white 6px 6px 0, white 7px 7px 0, white 8px 8px 0, white 9px 9px 0, white 10px 10px 0, white 11px 11px 0, white 12px 12px 0;
 }
 
 /* stars */
