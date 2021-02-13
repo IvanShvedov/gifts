@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/static/val.css" />
+    <script src="https://use.fontawesome.com/3ba42b7358.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+    <title>С днем святого Валентина!</title>
+</head>
+<body>
+<div class="bgoverlay">
+    <div class="container">
+      <span class="ico">
+        <span class="ico2"></span>
+        <span class="title">Кликни</span>
+      </span>
+      <div class="endtext">
+        <span class="close" title="Restart"><i class="fa fa-times"></i></span>  
+        <h1>Я люблю тебя Даша</h1>
+        <h2>Будешь моей валентиной?</h2>
+      </div>
+    </div>
+  </div>
+</body>
+<script>
+    $(document).ready(function(){
+  $('.title').click(function(){
+    $('.container').addClass('open');
+  });
+  
+  
+  $('.close').click(function(){
+    $('.container').removeClass('open');
+  });
+});
+</script>
+</html>

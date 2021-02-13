@@ -16,6 +16,10 @@ def success():
     return render_template('dasha/index1.html')
 
 
+@app.route("/dasha/valentine")
+def valentine():
+    return render_template('dasha/val.html')
+
 # app.run(host='0.0.0.0', port=80)
 app.run(debug=True)
 
