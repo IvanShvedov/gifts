@@ -29,6 +29,10 @@ def birthday():
 def dasha_birthday():
     return render_template('dasha/birthday.html')
 
+@app.route("/dad/birthday")
+def birthday():
+    return render_template('dad/birthday.html')
+
 # app.run(host='0.0.0.0', port=80)
 app.run(debug=True)
 
